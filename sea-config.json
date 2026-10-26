@@ -1,0 +1,12 @@
+{
+  "main": "dist/bundle.cjs",
+  "mainFormat": "commonjs",
+  "output": "dist/myapp",
+  "disableExperimentalSEAWarning": true,
+  "useCodeCache": true,
+  "useSnapshot": false,
+  "assets": {
+    "chrome-headless-shell-linux64.zip": "bin/chrome-headless-shell-linux64.zip",
+    "chrome-headless-shell-win64.zip": "bin/chrome-headless-shell-win64.zip"
+  }
+}

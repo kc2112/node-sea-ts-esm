@@ -1,0 +1,20 @@
+{
+  "name": "node-sea-ts-esm",
+  "version": "1.0.0",
+  "description": "Node.js Single Executable Application (SEA) scaffold with TypeScript + ESM",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:linux": "node build.mjs linux",
+    "build:windows": "node build.mjs windows",
+    "start": "node dist/bundle.cjs",
+    "sea": "node build.mjs",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.0",
+    "postject": "^1.0.0-alpha.6"
+  }
+}
